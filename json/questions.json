@@ -1,0 +1,334 @@
+{
+    "total": 7,
+    "items": [
+       {
+          "id": "gender",
+          "name": "Choose your gender?",
+          "sort_order": 1,
+          "fr_ca_name": "Choisissez votre sexe?",
+          "answers": [
+             {
+                "aid": "isFemale",
+                "name": "Female",
+                "fr_ca_name": null,
+                "sort_order": 1,
+                "next_qid": "age"
+             },
+             {
+                "aid": "isMale",
+                "name": "Male",
+                "fr_ca_name": null,
+                "sort_order": 1,
+                "next_qid": "age"
+             }
+          ]
+       },
+       {
+          "id": "age",
+          "name": "Please share <strong>your birthday<\/strong>",
+          "sort_order": 2,
+          "fr_ca_name": "Partagez votre <strong>date de naissance<\/strong>",
+          "answers": [
+             {
+                "aid": "is2534",
+                "name": "25 - 34",
+                "fr_ca_name": null,
+                "sort_order": 1,
+                "next_qid": ""
+             },
+             {
+                "aid": "is3544",
+                "name": "35 - 44",
+                "fr_ca_name": null,
+                "sort_order": 1,
+                "next_qid": ""
+             },
+             {
+                "aid": "is4554",
+                "name": "45 - 54",
+                "fr_ca_name": null,
+                "sort_order": 1,
+                "next_qid": ""
+             },
+             {
+                "aid": "is5564",
+                "name": "55 - 64",
+                "fr_ca_name": null,
+                "sort_order": 1,
+                "next_qid": ""
+             },
+             {
+                "aid": "isOver65",
+                "name": "65 and over",
+                "fr_ca_name": null,
+                "sort_order": 1,
+                "next_qid": ""
+             },
+             {
+                "aid": "isUnder24",
+                "name": "24 and under",
+                "fr_ca_name": null,
+                "sort_order": 1,
+                "next_qid": "skintype"
+             }
+          ]
+       },
+       {
+          "id": "skintype",
+          "name": "Let's find out more about your skin!<br /> <strong>What is your skin type?<\/strong>",
+          "sort_order": 3,
+          "fr_ca_name": "<strong>Quel est votre type de peau?<\/strong>",
+          "answers": [
+             {
+                "aid": "isDrySkin",
+                "name": "Dry",
+                "fr_ca_name": null,
+                "sort_order": 1,
+                "next_qid": "sensitivity"
+             },
+             {
+                "aid": "isNormaldrySkin",
+                "name": "Normal to Dry",
+                "fr_ca_name": null,
+                "sort_order": 2,
+                "next_qid": "mainconcern"
+             },
+             {
+                "aid": "isNormalSkin",
+                "name": "Normal",
+                "fr_ca_name": null,
+                "sort_order": 3,
+                "next_qid": ""
+             },
+             {
+                "aid": "isNormaloilySkin",
+                "name": "Normal to Oily",
+                "fr_ca_name": null,
+                "sort_order": 4,
+                "next_qid": ""
+             },
+             {
+                "aid": "isOilySkin",
+                "name": "Oily",
+                "fr_ca_name": null,
+                "sort_order": 5,
+                "next_qid": ""
+             }
+          ]
+       },
+       {
+          "id": "sensitivity",
+          "name": "<strong>Is your skin sensitive?<\/strong>",
+          "sort_order": 4,
+          "fr_ca_name": "Votre peau est-elle sensible?",
+          "answers": [
+             {
+                "aid": "isSensitiveSkin",
+                "name": "Yes",
+                "fr_ca_name": null,
+                "sort_order": 1,
+                "next_qid": ""
+             },
+             {
+                "aid": "isNotSensitiveSkin",
+                "name": "No",
+                "fr_ca_name": null,
+                "sort_order": 2,
+                "next_qid": ""
+             }
+          ]
+       },
+       {
+          "id": "mainconcern",
+          "name": "<strong>What is your main concern:<\/strong>",
+          "sort_order": 5,
+          "fr_ca_name": "Quelle est votre principale préoccupation?",
+          "answers": [
+             {
+                "aid": "isPrimarySkinAcne",
+                "name": "Diminish imperfections",
+                "fr_ca_name": null,
+                "sort_order": 1,
+                "next_qid": ""
+             },
+             {
+                "aid": "isPrimarySkinDiscoloration",
+                "name": "Reduce Dark Spots/Discolorations",
+                "fr_ca_name": null,
+                "sort_order": 1,
+                "next_qid": ""
+             },
+             {
+                "aid": "isPrimarySkinFlareups",
+                "name": "Reduce Redness",
+                "fr_ca_name": null,
+                "sort_order": 1,
+                "next_qid": ""
+             },
+             {
+                "aid": "isPrimarySkinLift",
+                "name": "Lift+Firm",
+                "fr_ca_name": null,
+                "sort_order": 1,
+                "next_qid": ""
+             },
+             {
+                "aid": "isPrimarySkinMoisture",
+                "name": "Restore Moisture",
+                "fr_ca_name": null,
+                "sort_order": 1,
+                "next_qid": ""
+             },
+             {
+                "aid": "isPrimarySkinPores",
+                "name": "Reduce Enlarged Pores",
+                "fr_ca_name": null,
+                "sort_order": 1,
+                "next_qid": ""
+             },
+             {
+                "aid": "isPrimarySkinRadiance",
+                "name": "Improve Skin Radiance",
+                "fr_ca_name": null,
+                "sort_order": 1,
+                "next_qid": ""
+             },
+             {
+                "aid": "isPrimarySkinShine",
+                "name": "Minimize Shine/Reduce Excess Oil",
+                "fr_ca_name": null,
+                "sort_order": 1,
+                "next_qid": ""
+             },
+             {
+                "aid": "isPrimarySkinTexture",
+                "name": "Improve Skin Texture",
+                "fr_ca_name": null,
+                "sort_order": 1,
+                "next_qid": ""
+             },
+             {
+                "aid": "isPrimarySkinUv",
+                "name": "Prevent UV Damage",
+                "fr_ca_name": null,
+                "sort_order": 1,
+                "next_qid": ""
+             },
+             {
+                "aid": "isPrimarySkinWrinkles",
+                "name": "Diminish Lines and Wrinkles",
+                "fr_ca_name": null,
+                "sort_order": 1,
+                "next_qid": ""
+             }
+          ]
+       },
+       {
+          "id": "secondaryconcern",
+          "name": "<strong>What is your secondary concern?<\/strong>",
+          "sort_order": 6,
+          "fr_ca_name": "Quelle est votre préoccupation secondaire?",
+          "answers": [
+             {
+                "aid": "isSecondarySkinAcne",
+                "name": "Diminish imperfections",
+                "fr_ca_name": null,
+                "sort_order": 1,
+                "next_qid": ""
+             },
+             {
+                "aid": "isSecondarySkinDiscoloration",
+                "name": "Reduce Dark Spots/Discolorations",
+                "fr_ca_name": null,
+                "sort_order": 1,
+                "next_qid": ""
+             },
+             {
+                "aid": "isSecondarySkinFlareups",
+                "name": "Reduce Redness",
+                "fr_ca_name": null,
+                "sort_order": 1,
+                "next_qid": ""
+             },
+             {
+                "aid": "isSecondarySkinLift",
+                "name": "Lift+Firm",
+                "fr_ca_name": null,
+                "sort_order": 1,
+                "next_qid": ""
+             },
+             {
+                "aid": "isSecondarySkinMoisture",
+                "name": "Restore Moisture",
+                "fr_ca_name": null,
+                "sort_order": 1,
+                "next_qid": ""
+             },
+             {
+                "aid": "isSecondarySkinPores",
+                "name": "Reduce Enlarged Pores",
+                "fr_ca_name": null,
+                "sort_order": 1,
+                "next_qid": ""
+             },
+             {
+                "aid": "isSecondarySkinRadiance",
+                "name": "Improve Skin Radiance",
+                "fr_ca_name": null,
+                "sort_order": 1,
+                "next_qid": ""
+             },
+             {
+                "aid": "isSecondarySkinShine",
+                "name": "Minimize Shine/Reduce Excess Oil",
+                "fr_ca_name": null,
+                "sort_order": 1,
+                "next_qid": ""
+             },
+             {
+                "aid": "isSecondarySkinTexture",
+                "name": "Improve Skin Texture",
+                "fr_ca_name": null,
+                "sort_order": 1,
+                "next_qid": ""
+             },
+             {
+                "aid": "isSecondarySkinUv",
+                "name": "Prevent UV Damage",
+                "fr_ca_name": null,
+                "sort_order": 1,
+                "next_qid": ""
+             },
+             {
+                "aid": "isSecondarySkinWrinkles",
+                "name": "Diminish Lines and Wrinkles",
+                "fr_ca_name": null,
+                "sort_order": 1,
+                "next_qid": ""
+             }
+          ]
+       },
+       {
+          "id": "naturalinterest",
+          "name": "Are you interest in natural product?",
+          "sort_order": 7,
+          "fr_ca_name": "Portez-vous un int�r�t aux produits naturels?",
+          "answers": [
+             {
+                "aid": "isNaturalInterestNo",
+                "name": "No",
+                "fr_ca_name": null,
+                "sort_order": 1,
+                "next_qid": ""
+             },
+             {
+                "aid": "isNaturalInterestYes",
+                "name": "Yes",
+                "fr_ca_name": null,
+                "sort_order": 1,
+                "next_qid": ""
+             }
+          ]
+       }
+    ]
+ }

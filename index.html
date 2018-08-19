@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Home | [Brand Placeholder]</title>
+        <meta name="description" content="Discover [Brand Placeholder]" />
+        <link rel="stylesheet" type="text/css" href="/css/style.min.css" />
+        <!--script type="application/ld+json">
+        {
+            "@context" : "http://schema.org <http://schema.org/> ",
+            "@type" : "Organization",
+            "name" : "[Brand Placeholder]",
+            "url" : "http://www.[Brand Placeholder].ca <http://www.[Brand Placeholder].ca/>",
+            "logo": "http://www.[Brand Placeholder].ca/images/logo.png",
+            "sameAs" : [
+                "https://www.facebook.com/[Brand Placeholder].CA/",
+                "https://www.youtube.com/user/[Brand Placeholder]",
+                "https://www.pinterest.com/[Brand Placeholder]/[Brand Placeholder]/"
+            ]
+        }
+        </script-->
+    </head>
+    <body>
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','superDataLayer','GTM-5Z6VNR');</script>
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5Z6VNR"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager -->
+
+        <div id="container">
+            
+            <div id="intro">
+                <img class="bg" src="http://image.mail.biotherm.ca/lib/fe9513727563077976/m/4/landing_diagnostic_intro_v2.jpg" alt="" />
+                <div class="inner">
+                    <div class="data">
+                        <h1>Because we all have unique skin concerns. <br /><br /><strong>Discover our online skin diagnostic to find the right Biotherm routine for you.</strong></h1>
+                        <!--a href="#" class="cta clear">Let's begin</a-->
+                    </div><!-- div.data -->
+                </div><!-- div.inner -->
+            </div><!-- div#intro -->
+            
+             <div id="registration_wrapper">
+
+                <section id="register">
+                    <div class="inner">
+                        <h2>TELL US <strong>WHO YOU ARE</strong></h2>
+                        <form id="register_form" class="form register_form" method="post" action="#">
+                            <div class="input">
+                                <input type="text" name="name" placeholder="Name" />
+                                <div class="error_message"></div>
+                            </div><!-- div.input -->
+                            <div class="input">
+                                <div class="cols col_1">
+                                    <input type="text" name="email" placeholder="Email" />
+                                    <div class="error_message"></div>
+                                </div><!-- div.cols -->
+                                <div class="cols col_2">
+                                    <input type="text" name="postalcode" placeholder="Postal code" />
+                                    <div class="error_message"></div>
+                                </div><!-- div.cols -->
+                            </div><!-- div.cols -->
+                            <small>This does not subscribe you to our Newsletter. It will only be used to save your results.</small>
+                            <h3>SIGN UP TO OUR NEWSLETTER AND RECEIVE <strong>$10 OFF</strong> YOUR FIRST ORDER!</h3>
+                            <p>Receive exclusive offers, special promotions, expert skincare tips and tricks and more!</p>
+                            <div class="input">
+                                <label for="form-optin" class="checkbox"><input type="checkbox" name="optin_secondary" id="form-optin" value="0" /> I also want to subscribe to the Biotherm Homme Newsletter.</label>
+                                <div class="error_message"></div>
+                            </div><!-- div.input -->
+                            <div class="actions">
+                                <button type="button" id="register_yes" name="optin" value="1">Yes, SIGN ME UP AND CONTINUE TO NEXT STEP.</button>
+                                <button type="button" id="register_no" name="optin" value="0" class="off">No, Don’t SIGN ME UP AND CONTINUE TO NEXT STEP.</button>
+                            </div><!-- div.actions -->
+                            <small>An email with your exclusive promo code will be sent within 24 hours. You can unsubscribe at your convenience. Please refer to our Privacy Policy for more details on how we manage your personal information or contact us: Biotherm Canada, 1500 Boulevard Robert-Bourassa, Bureau 600, Montréal, Québec, H3A 3S7 – dgcontactbiotherm@info-ccc.com.</small>
+                            <input type="hidden" name="locale" value="en" />
+                        </form>
+                        <div id="register_error" class="hidden">
+                            <div class="error_message">An error has occurred. Please contact us.</div>
+                        </div>
+                    </div><!-- div.inner -->
+                </section><!-- section#register -->
+                
+                <section id="existing" class="hidden">
+                    <div class="inner">
+                        <h2>It looks like you already did the diagnostic with this email. Would you like to:</h2>
+                        <div class="actions">
+                            <a href="#" id="existing_modify" class="cta">Modify answers</a>
+                            <a href="#" id="existing_sendemail" class="cta">See previous results</a>
+                        </div>
+                        <div id="existing_error" class="hidden">
+                            <div class="error_message">An error has occurred. Please try again.</div>
+                        </div>
+                    </div><!-- div.inner -->
+                </section><!-- section#existing -->
+
+                <section id="confirmation" class="hidden">
+                    <div class="inner">
+                        <h2>Thank you.</h2>
+                        <p>We have sent you an email with your product recommendations.</p>
+                    </div><!-- div.inner -->
+                </section><!-- section#confirmation -->
+
+            </div><!-- div#registration_wrapper -->
+
+            <div id="quiz_wrapper">
+
+                <section id="quiz" class="hidden">
+                    <img src="http://image.mail.biotherm.ca/lib/fe9513727563077976/m/3/loading.gif" alt="Please wait" />
+                </section><!-- section#quiz -->
+                
+                <section id="results" class="hidden">
+                    <img src="http://image.mail.biotherm.ca/lib/fe9513727563077976/m/3/loading.gif" alt="Please wait" class="loading_img" />
+                </section>
+                
+                <section id="results_confirmation" class="hidden">
+                    <div class="inner">
+                        <h2>Thank you.</h2>
+                        <p>We have sent you an email with your product recommendations.</p>
+                    </div><!-- div.inner -->
+                </section><!-- section#confirmation -->
+
+            </div><!-- div#quiz_wrapper -->
+
+        </div><!-- div#container -->
+
+        <!-- TEMPLATE: QUIZ  -->
+        <script id="quizTemplate" type="text/template">
+           <form id="quiz_form" method="post" action="#">
+               <fieldset></fieldset>
+           </form>
+        </script>
+
+        <!-- TEMPLATE: QUESTION  -->
+        <script id="questionTemplate" type="text/template">
+            <% generic = (id != 'age' && id != 'sensitivity' && id != 'naturalinterest' && id != 'skintype') ? ' class="generic_question"' : ''; %>
+            <div id="question_<%= id %>"<%= generic %>>
+                <div class="inner">
+                    <h3><%= name %></h3>
+                    <div class="question_listing">
+                        <% if (id == 'age') { %>
+                            <div class="select_wrapper">
+                                <select name="age_day" id="age_day" data-qid="<%= id %>">
+                                    <option disabled selected value>DD</option>
+                                    <% for (var i = 1; i <= 31; i++) {
+                                        value = (i < 10 ? '0' : '') + i;
+                                        %>
+                                        <option value="<%= value %>"><%= value %></option>
+                                    <% } %>
+                                </select>
+                            </div><!-- div.select_wrapper -->
+                            <span>/</span>
+                            <div class="select_wrapper">
+                                <select name="age_month" id="age_month" data-qid="<%= id %>">
+                                    <option disabled selected value>MM</option>
+                                    <% for (var i = 1; i <= 12; i++) {
+                                        value = (i < 10 ? '0' : '') + i;
+                                        %>
+                                        <option value="<%= value %>"><%= value %></option>
+                                    <% } %>
+                                </select>
+                            </div><!-- div.select_wrapper -->
+                            <span>/</span>
+                            <div class="select_wrapper">
+                                <select name="age_year" id="age_year" data-qid="<%= id %>">
+                                    <option disabled selected value>YY</option>
+                                    <% 
+                                    var currentTime = new Date(),
+                                        year = currentTime.getFullYear(),
+                                        startYear = year - 99,
+                                        endYear = year - 17,
+                                        value = '';
+                                    for (var i = endYear; i >= startYear; i--) {
+                                        value = (i < 10 ? '0' : '') + i;
+                                        %>
+                                        <option value="<%= value %>"><%= value.slice(-2) %></option>
+                                    <% } %>
+                                </select>
+                            </div><!-- div.select_wrapper -->
+                        <% } else { %>
+                            <% var checked = ''; %>
+                            <% _.each(answers, function(answer) { %>
+                                <% checked = (id == 'gender' && answer.aid == app.settings.get('gender')) ? ' checked="checked"' : ''; %>
+                                <div class="input">
+                                    <input type="radio" id="a-<%= answer.aid %>" name="q-<%= id %>" value="<%= answer.aid %>" data-qid="<%= id %>" data-aid="<%= answer.aid %>"<%= checked %>>
+                                    <label for="a-<%= answer.aid %>" data-qid="<%= id %>" data-aid="<%= answer.aid %>"><%= answer.name %></label>
+                                </div>
+                                <% if (id == 'sensitivity' || id == 'naturalinterest') { %>
+                                    <span>/</span>
+                                <% } %>
+                            <% }) %>
+                        <% } %>
+                    </div><!-- div.question_listing -->
+                    <div class="error_message"></div>
+                    <% if (id == 'secondaryconcern') { %>
+                        <div class="actions">
+                           <button type="submit" class="clear">
+                                <span>See your diagnostic</span>
+                           </button>
+                        </div><!-- div.actions -->
+                    <% } %>
+                </div><!-- div.inner -->
+            </div>
+        </script>
+
+        <!-- TEMPLATE: RESULTS  -->
+        <script id="resultsTemplate" type="text/template">
+           <div id="diagnostic">
+               <div class="inner">
+                   <h1>Diagnostic</h1>
+                   <div class="data left">
+                        <h2>Your Skin is</h2>
+                        <p>
+                            <% if (typeof answers.skintype !== 'undefined') { %>
+                                <strong><%= answers.skintype.name %></strong> 
+                            <% } %>
+                            <% if (typeof answers.skintype !== 'undefined' && typeof answers.sensitivity !== 'undefined') { %>
+                                and
+                            <% } %>
+                            <% if (typeof answers.sensitivity !== 'undefined') { %>
+                                <strong>
+                                    <% if (answers.sensitivity.name == 'Yes') { %>
+                                        Sensitive
+                                    <% } else { %>
+                                        Not sensitive
+                                    <% } %>
+                                </strong>
+                            <% } %>
+                        </p>
+                   </div><!-- div.data -->
+                   <div class="data right">
+                        <% if (typeof answers.mainconcern !== 'undefined' && typeof answers.secondaryconcern !== 'undefined') { %>
+                            <h2>Your Concerns are</h2>
+                            <p><strong><%= answers.mainconcern.name %></strong></p>
+                            and
+                            <p><strong><%= answers.secondaryconcern.name %></strong></p>
+                        <% } else if (typeof answers.mainconcern !== 'undefined') { %>
+                            <h2>Your Concern is</h2>
+                            <p><strong><%= answers.mainconcern.name %></strong></p>
+                        <% } %>
+                   </div><!-- div.data -->
+                </div><!-- div.inner -->
+           </div><!-- div#diagnostic -->
+           <div id="product_listing">
+                <h2>Here is <strong>your personalized<br />SKINCARE routine</strong></h2>
+                <span class="subtitle">
+                    Day <img src="http://image.mail.biotherm.ca/lib/fe9513727563077976/m/4/landing_diagnostic_icon_sun.png" alt="" />
+                </span><!-- span.subtitle -->
+                <div class="products_wrapper">
+                    <% _.each(results, function(product) { %>
+                        <div class="item">
+                            <span class="category">
+                                <%= product.cname %>
+                            </span><!-- span.category -->
+                            <div class="media">
+                                <a href="<%= product.product_url %>" title="View <%= product.name %>" target="_blank">
+                                    <img src="<%= product.image_url %>" height="200" alt="<%= product.name %>" />
+                                </a>
+                            </div><!-- div.media -->
+                            <h3><a href="<%= product.product_url %>" title="View <%= product.name %>" target="_blank"><%= product.name %></a></h3>
+                            <p>
+                                <span class="price">$&nbsp;<%= parseFloat(product.price).toFixed(2) %></span> / <span class="size"><%= product.size.replace(/_/g, ' ') %></span>
+                            </p>
+                            <div class="product_actions">
+                                <a href="<%= product.product_url %>" title="Visit the <%= product.name %> page" target="_blank">
+                                    <img src="http://image.mail.biotherm.ca/lib/fe9513727563077976/m/3/landing_diagnostic_bag.jpg" alt="Add to bag" />
+                                </a>
+                            </div><!-- div.product_actions -->
+                        </div><!-- div.products_wrapper -->
+                    <% }) %>
+                    <div class="actions">
+                        <button id="add_all" type="button">Add all to bag</button>
+                        <button id="send_results" type="button">Email your results</button>
+                        <button id="print_results" type="button">Print your diagnostic</button>
+                        <button id="restart" type="button">Restart</button>
+                    </div><!-- div.actions -->
+                </div><!-- div.inner -->
+            </div><!-- div#product_listing -->
+        </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.3.3/backbone-min.js"></script>
+        <script type="text/javascript">//<!--
+            var app = {
+                "settings": {
+                    "type": "isSkincare",
+                    "locale": "en_CA",
+                    "gender": "isFemale",
+                    "transition": "fade", // values: 'fade'
+                    "flow": "", // values: 'tree'
+                    "tskey": "SoftmediaDaaSRecommendationS1E1EN",
+                    "add_all_url": "https://www.biotherm.ca/en/addtocart.html?pids=",
+                    "postalcode_regex": /^[ABCEGHJ-NPRSTVXY][0-9][ABCEGHJ-NPRSTV-Z][ -]?[0-9][ABCEGHJ-NPRSTV-Z][0-9]$/i,
+                    "loading_img": 'http://image.mail.biotherm.ca/lib/fe9513727563077976/m/3/loading.gif',
+                    "error_message": {
+                        "default": "Please select a valid option",
+                        "email": "Please enter a valid email address",
+                        "postalcode": "Please enter a valid postal code",
+                        "birthdate": "Please enter a valid birthday",
+                        "age": "Please enter a valid age range",
+                        "noresults": "Unfortunately there are no results matching your answers, please try again.",
+                        "register": "An error has occurred. Please contact us."
+                    },
+                    "event_listener": function(){
+                        $(document).on('diagnosticStepCompleted', function(event, data) {
+                            var data = typeof data !== 'undefined' ? data : {},
+                                brandDomain = 'www.biotherm.ca',
+                                urlParts = document.referrer.split('/'),
+                                targetProtocol = typeof urlParts[0] !== 'undefined' ? urlParts[0] : '',
+                                targetDomain = typeof urlParts[2] !== 'undefined' ? urlParts[2] : '';
+                            if ((targetProtocol == 'http:' || targetProtocol == 'https:') && (targetDomain == brandDomain || targetDomain == 'staging-latam-loreal.demandware.net' || targetDomain == 'pages.mail.biotherm.ca')) {
+                                parent.postMessage({'trigger': data, 'height': document.body.offsetHeight}, targetProtocol + '//' + targetDomain);
+                            }
+
+                            switch(data.step) {
+                                case 'results-loaded':
+                                    // handle women and men optin status
+                                    var optinStatus = typeof data.user.attributes.optin !== 'undefined' ? data.user.attributes.optin : '';
+                                    if (!optinStatus) {
+                                        optinStatus = typeof data.user.attributes.optin_secondary !== 'undefined' ? data.user.attributes.optin_secondary : '';
+                                    }
+                                    superDataLayer.push({
+                                        'event': 'uaevent',
+                                        'eventCategory': 'diagnostic',
+                                        'eventAction': 'validate::form',
+                                        'eventLabel': 'skin diagnostic',
+                                        'uiEmailSubscriber': optinStatus,
+                                        'uiGender': typeof data.answers.gender !== 'undefined' ? data.answers.gender.name : '',
+                                        'uiPostalCode': typeof data.user.attributes.postalcode !== 'undefined' ? data.user.attributes.postalcode : '',
+                                        'ageRange': typeof data.answers.age !== 'undefined' ? data.answers.age.name : '',
+                                        'uiBirthday': typeof data.user.attributes.birthday !== 'undefined' ? data.user.attributes.birthday : '',
+                                        'uiEmail': typeof data.user.attributes.email !== 'undefined' ? data.user.attributes.email : '',
+                                        'skinType': typeof data.answers.skintype !== 'undefined' ? data.answers.skintype.name : '',
+                                        'primarySkinConcern': typeof data.answers.mainconcern !== 'undefined' ? data.answers.mainconcern.name : '',
+                                        'secondarySkinConcern': typeof data.answers.secondaryconcern !== 'undefined' ? data.answers.secondaryconcern.name : ''
+                                    });
+                                    if (!!optinStatus) {
+                                        superDataLayer.push({
+                                            'event': 'uaevent',
+                                            'eventCategory': 'registration',
+                                            'eventAction': 'newsletter',
+                                            'eventLabel': 'diagnostic'
+                                        });
+                                    }
+                                    break;
+                            }
+
+                        });
+                    }()
+                }
+            };
+            // -->
+        </script>
+        <script src="/js/js.js" type="text/javascript"></script>
+        <script src="/js/ui.js" type="text/javascript"></script>
+    </body>
+</html>

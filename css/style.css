@@ -1,0 +1,849 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background: #fff;
+  color: #535355;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5em;
+  margin: 0;
+  text-align: center;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  color: #535355;
+  outline: none;
+  text-decoration: none;
+  -webkit-transition: .2s all;
+  transition: .2s all;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+small {
+  font-size: 11px;
+  line-height: 13px;
+}
+
+::-webkit-input-placeholder, ::-moz-placeholder, :-ms-input-placeholder {
+  color: #fff;
+}
+
+form div.error_message {
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+}
+
+form div.error_message span {
+  color: #c13030;
+  display: block;
+  padding-top: 8px;
+  text-transform: none;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+form label {
+  font-family: 'Open Sans',sans-serif;
+  text-transform: uppercase;
+}
+
+form label.checkbox {
+  font-size: 14px;
+  text-transform: none;
+}
+
+form input[type="text"], form input[type="email"] {
+  border: 1px solid #535355;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  outline: none;
+  padding: 16px;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+form select {
+  background: none;
+  border: none;
+  border-radius: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+  text-transform: uppercase;
+  width: 100%;
+}
+
+form select::-ms-expand {
+  display: none;
+}
+
+form button {
+  background: none;
+  border: none;
+  outline: none;
+  padding: 0;
+}
+
+#container div#intro div.data h1 {
+  font-size: 16px;
+  line-height: 1.3em;
+  margin: 15px;
+}
+
+#container div#intro div.data h1 strong {
+  display: block;
+}
+
+#container div#intro div.data a.cta {
+  display: none;
+}
+
+#container div#registration_wrapper section {
+  padding: 30px 0;
+}
+
+#container div#registration_wrapper section h2 {
+  font-size: 16px;
+  line-height: 1.3em;
+  margin-bottom: 30px;
+}
+
+#container div#registration_wrapper section h3 {
+  margin: 32px 0 10px;
+}
+
+#container div#registration_wrapper section div.input {
+  margin: 0 auto 12px;
+  max-width: 590px;
+  overflow: hidden;
+  width: 100%;
+}
+
+#container div#registration_wrapper section div.error_message {
+  text-align: center;
+}
+
+#container div#registration_wrapper section#register div.input div.col_1, #container div#registration_wrapper section#register p {
+  margin-bottom: 12px;
+}
+
+#container div#registration_wrapper section#register small {
+  display: block;
+  margin: 0 auto;
+  max-width: 950px;
+}
+
+#container div#registration_wrapper section#existing h2 {
+  margin: 0 auto 30px;
+  max-width: 790px;
+}
+
+#container div#quiz_wrapper section#quiz > img {
+  padding: 60px;
+}
+
+#container div#quiz_wrapper section#quiz div.question_wrapper {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#container div#quiz_wrapper section#quiz div.question_wrapper div.inner {
+  max-width: 900px;
+}
+
+#container div#quiz_wrapper section#quiz div.question_wrapper h3 {
+  font-size: 16px;
+  line-height: 1.3em;
+  margin-bottom: 35px;
+}
+
+#container div#quiz_wrapper section#quiz div.question_wrapper div.question_listing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+#container div#quiz_wrapper section#quiz div.question_wrapper div.question_listing div.input {
+  margin-bottom: 18px;
+  width: 284px;
+}
+
+#container div#quiz_wrapper section#quiz div.question_wrapper div.question_listing div.input input[type="radio"] {
+  display: none;
+}
+
+#container div#quiz_wrapper section#quiz div.question_wrapper div.question_listing div.input input[type="radio"] + label {
+  cursor: pointer;
+  display: block;
+  padding: 9px 15px;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+#container div#quiz_wrapper section#quiz div.question_wrapper div.question_listing div.input input[type="radio"] + label:hover {
+  opacity: .7;
+}
+
+#container div#quiz_wrapper section#quiz div.question_wrapper div.question_listing div.input input[type="radio"]:checked + label {
+  color: #535355;
+}
+
+#container div#quiz_wrapper section#quiz div.question_wrapper div#question_gender {
+  display: none;
+}
+
+#container div#quiz_wrapper section#quiz div.question_wrapper div#question_age {
+  background: #286170;
+  padding: 90px 0;
+}
+
+#container div#quiz_wrapper section#quiz div.question_wrapper div#question_age div.question_listing {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+#container div#quiz_wrapper section#quiz div.question_wrapper div#question_age div.question_listing div.select_wrapper {
+  position: relative;
+}
+
+#container div#quiz_wrapper section#quiz div.question_wrapper div#question_age div.question_listing div.select_wrapper select {
+  background: #286170;
+  color: #fff;
+  font-size: 40px;
+  line-height: 75px;
+  text-align-last: center;
+}
+
+#container div#quiz_wrapper section#quiz div.question_wrapper div#question_age div.question_listing div.select_wrapper select option {
+  font-size: 24px;
+}
+
+#container div#quiz_wrapper section#quiz div.question_wrapper div#question_age div.question_listing span {
+  font-size: 75px;
+  font-weight: 300;
+  line-height: 75px;
+}
+
+#container div#quiz_wrapper section#quiz div.question_wrapper div#question_skintype {
+  background: url("http://image.mail.biotherm.ca/lib/fe9513727563077976/m/3/landing_diagnostic_skintype.jpg") center center;
+  background-size: cover;
+  padding: 35px 0;
+}
+
+#container div#quiz_wrapper section#quiz div.question_wrapper div#question_skintype div.question_listing {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+#container div#quiz_wrapper section#quiz div.question_wrapper div#question_skintype div.question_listing div.input {
+  background: #fff;
+  color: #286170;
+  max-width: 284px;
+}
+
+#container div#quiz_wrapper section#quiz div.question_wrapper div#question_skintype div.question_listing:after {
+  content: "";
+  -webkit-box-flex: 1;
+  -ms-flex: auto;
+  flex: auto;
+}
+
+#container div#quiz_wrapper section#quiz div.question_wrapper div#question_sensitivity, #container div#quiz_wrapper section#quiz div.question_wrapper div#question_naturalinterest {
+  background: #fff;
+  color: #286170;
+  padding: 90px 0;
+}
+
+#container div#quiz_wrapper section#quiz div.question_wrapper div#question_sensitivity div.question_listing, #container div#quiz_wrapper section#quiz div.question_wrapper div#question_naturalinterest div.question_listing {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+#container div#quiz_wrapper section#quiz div.question_wrapper div#question_sensitivity div.question_listing div.input, #container div#quiz_wrapper section#quiz div.question_wrapper div#question_naturalinterest div.question_listing div.input {
+  color: #23c9c5;
+  font-size: 54px;
+  line-height: 75px;
+  width: auto;
+}
+
+#container div#quiz_wrapper section#quiz div.question_wrapper div#question_sensitivity div.question_listing div.input input[type="radio"] + label, #container div#quiz_wrapper section#quiz div.question_wrapper div#question_naturalinterest div.question_listing div.input input[type="radio"] + label {
+  padding: 0;
+}
+
+#container div#quiz_wrapper section#quiz div.question_wrapper div#question_sensitivity div.question_listing span, #container div#quiz_wrapper section#quiz div.question_wrapper div#question_naturalinterest div.question_listing span {
+  font-size: 75px;
+  font-weight: 300;
+  line-height: 75px;
+}
+
+#container div#quiz_wrapper section#quiz div.question_wrapper div#question_sensitivity div.question_listing span:last-child, #container div#quiz_wrapper section#quiz div.question_wrapper div#question_naturalinterest div.question_listing span:last-child {
+  display: none;
+}
+
+#container div#quiz_wrapper section#quiz div.question_wrapper div.generic_question {
+  background: url("http://image.mail.biotherm.ca/lib/fe9513727563077976/m/3/landing_diagnostic_skinconcern.jpg") center center;
+  background-size: cover;
+  padding: 35px 0;
+}
+
+#container div#quiz_wrapper section#quiz div.question_wrapper div.generic_question div.question_listing {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+#container div#quiz_wrapper section#quiz div.question_wrapper div.generic_question div.question_listing div.input {
+  color: #fff;
+  margin: 0 7px 14px;
+  max-width: 284px;
+  text-align: left;
+}
+
+#container div#quiz_wrapper section#quiz div.question_wrapper div.generic_question div.question_listing div.input input[type="radio"] + label {
+  padding-left: 24px;
+  position: relative;
+}
+
+#container div#quiz_wrapper section#quiz div.question_wrapper div.generic_question div.question_listing div.input input[type="radio"] + label:before {
+  border: 1px solid #fff;
+  content: "";
+  height: 12px;
+  left: 0;
+  position: absolute;
+  top: 15px;
+  width: 12px;
+}
+
+#container div#quiz_wrapper section#quiz div.question_wrapper div.generic_question div.question_listing div.input input[type="radio"]:checked + label {
+  color: #fff;
+}
+
+#container div#quiz_wrapper section#quiz div.question_wrapper div.generic_question div.question_listing div.input input[type="radio"]:checked + label:before {
+  background: #286170;
+}
+
+#container div#quiz_wrapper section#results .loading_img {
+  padding: 60px;
+}
+
+#container div#quiz_wrapper section#results div#diagnostic {
+  background: #286170;
+  color: #fff;
+  padding: 35px;
+}
+
+#container div#quiz_wrapper section#results div#diagnostic h1 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1em;
+  margin-bottom: 35px;
+}
+
+#container div#quiz_wrapper section#results div#diagnostic div.data {
+  display: block;
+  text-align: center;
+}
+
+#container div#quiz_wrapper section#results div#diagnostic div.data h2 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1em;
+  margin-bottom: 10px;
+}
+
+#container div#quiz_wrapper section#results div#diagnostic div.data p strong {
+  text-transform: uppercase;
+}
+
+#container div#quiz_wrapper section#results div#diagnostic div.data.left {
+  margin-bottom: 30px;
+}
+
+#container div#quiz_wrapper section#results div#product_listing h2 {
+  color: #286170;
+  font-size: 16px;
+  line-height: 1em;
+  margin: 35px 0 16px;
+}
+
+#container div#quiz_wrapper section#results div#product_listing span.subtitle {
+  background: #286170;
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1em;
+  padding: 12px 0;
+  text-transform: uppercase;
+}
+
+#container div#quiz_wrapper section#results div#product_listing span.subtitle img {
+  vertical-align: top;
+  width: 15px;
+}
+
+#container div#quiz_wrapper section#results div#product_listing div.products_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+#container div#quiz_wrapper section#results div#product_listing div.products_wrapper div.item {
+  margin-bottom: 30px;
+  width: 48%;
+}
+
+#container div#quiz_wrapper section#results div#product_listing div.products_wrapper div.item span.category {
+  background: #fff;
+  color: #23c9c5;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 3px 0;
+  text-transform: uppercase;
+}
+
+#container div#quiz_wrapper section#results div#product_listing div.products_wrapper div.item div.media {
+  margin: 20px 0;
+}
+
+#container div#quiz_wrapper section#results div#product_listing div.products_wrapper div.item h3 {
+  font-size: 14px;
+  line-height: 1.3em;
+  margin: 0 auto 15px;
+  max-width: 80%;
+  min-height: 54px;
+}
+
+#container div#quiz_wrapper section#results div#product_listing div.products_wrapper div.item div.product_actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#container div#quiz_wrapper section#results div#product_listing div.products_wrapper div.item div.product_actions button {
+  background: none;
+  border: none;
+  outline: none;
+  padding: 0;
+}
+
+#container div#quiz_wrapper section#results div#product_listing div.actions {
+  margin-bottom: 60px;
+  max-width: none;
+  width: 100%;
+}
+
+#container div#quiz_wrapper section#results div#product_listing div.actions button {
+  width: 48%;
+}
+
+#container div#quiz_wrapper section#results_confirmation {
+  padding: 30px 0;
+}
+
+#container div#quiz_wrapper section#results_confirmation h2 {
+  font-size: 16px;
+  line-height: 1.3em;
+  margin-bottom: 30px;
+}
+
+#container div.inner {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1176px;
+  padding: 0 15px;
+}
+
+#container a.cta {
+  background: #286170;
+  color: #fff;
+  display: inline-block;
+  font-size: 19px;
+  margin: 0 0 15px;
+  padding: 10px 26px;
+  text-transform: uppercase;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#container a.cta:hover {
+  opacity: .7;
+}
+
+#container a.cta.clear {
+  background: none;
+  border: 1px solid #fff;
+}
+
+#container a.cta.clear:hover {
+  border: 1px solid #286170;
+  color: #286170;
+  opacity: 1;
+}
+
+#container div.actions {
+  margin: 0 auto 15px;
+  max-width: 590px;
+  overflow: hidden;
+}
+
+#container div.actions.actions_medium {
+  max-width: 740px;
+}
+
+#container div.actions.actions_large {
+  max-width: 800px;
+}
+
+#container div.actions button {
+  background: #286170;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 13px;
+  outline: none;
+  margin-bottom: 15px;
+  padding: 9px;
+  text-transform: uppercase;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+#container div.actions button.off {
+  background: #e6e4e4;
+  color: #535355;
+}
+
+#container div.actions button:hover {
+  opacity: .7;
+}
+
+#container div.actions button.clear {
+  background: none;
+  border: 1px solid #fff;
+  font-size: 19px;
+  font-weight: 700;
+  padding: 12px 16px;
+  position: relative;
+}
+
+#container div.actions button.clear:after {
+  background: url("http://image.mail.biotherm.ca/lib/fe9513727563077976/m/3/landing_diagnostic_arrow.png") center center;
+  content: "";
+  height: 36px;
+  position: absolute;
+  right: -42px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 20px;
+}
+
+#container div.actions button.clear:hover {
+  border: 1px solid #286170;
+  color: #286170;
+}
+
+#container img.bg {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+#container .hidden {
+  display: none;
+}
+
+@media only screen and (min-width: 680px) {
+  div#container div#intro {
+    background: url("http://image.mail.biotherm.ca/lib/fe9513727563077976/m/4/landing_diagnostic_intro_v2.jpg") center center no-repeat;
+    background-size: cover;
+    color: #fff;
+  }
+  div#container div#intro img.bg {
+    display: none;
+  }
+  div#container div#intro div.inner {
+    height: 355px;
+  }
+  div#container div#intro div.data {
+    position: absolute;
+    right: 6%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 46%;
+  }
+  div#container div#intro div.data h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  div#container div#intro div.data a.cta {
+    bottom: -75px;
+    display: inline-block;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  div#container div#registration_wrapper section#register div.input div.col_1 {
+    float: left;
+    margin-bottom: 0;
+    width: 68%;
+  }
+  div#container div#registration_wrapper section#register div.input div.col_2 {
+    float: right;
+    width: 30%;
+  }
+  div#container div.inner {
+    overflow: hidden;
+    position: relative;
+  }
+  div#container div.actions button {
+    width: 44%;
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  body {
+    font-size: 18px;
+  }
+  div#container div#intro div.inner {
+    height: 555px;
+  }
+  div#container div#intro div.data h1 {
+    font-size: 32px;
+  }
+  div#container div#registration_wrapper section {
+    padding: 60px 0;
+  }
+  div#container div#registration_wrapper section h2 {
+    font-size: 32px;
+  }
+  div#container div#registration_wrapper section h3 {
+    font-size: 21px;
+  }
+  div#container div#registration_wrapper section#existing {
+    padding: 190px 0;
+  }
+  div#container div#registration_wrapper section#existing h2 {
+    margin-bottom: 56px;
+  }
+  div#container div#quiz_wrapper section#quiz div.question_wrapper h3 {
+    font-size: 32px;
+    margin-bottom: 70px;
+  }
+  div#container div#quiz_wrapper section#quiz div.question_wrapper div#question_age {
+    padding: 180px 0;
+  }
+  div#container div#quiz_wrapper section#quiz div.question_wrapper div#question_age div.question_listing div.select_wrapper select {
+    font-size: 108px;
+    line-height: 150px;
+  }
+  div#container div#quiz_wrapper section#quiz div.question_wrapper div#question_age div.question_listing span {
+    font-size: 150px;
+    line-height: 150px;
+  }
+  div#container div#quiz_wrapper section#quiz div.question_wrapper div#question_sensitivity, div#container div#quiz_wrapper section#quiz div.question_wrapper div#question_naturalinterest {
+    padding: 180px 0;
+  }
+  div#container div#quiz_wrapper section#quiz div.question_wrapper div#question_sensitivity div.question_listing div.input, div#container div#quiz_wrapper section#quiz div.question_wrapper div#question_naturalinterest div.question_listing div.input {
+    font-size: 108px;
+    line-height: 150px;
+  }
+  div#container div#quiz_wrapper section#quiz div.question_wrapper div#question_sensitivity div.question_listing span, div#container div#quiz_wrapper section#quiz div.question_wrapper div#question_naturalinterest div.question_listing span {
+    font-size: 150px;
+    line-height: 150px;
+  }
+  div#container div#quiz_wrapper section#quiz div.question_wrapper div#question_skintype {
+    padding: 70px 0;
+  }
+  div#container div#quiz_wrapper section#quiz div.question_wrapper div.generic_question {
+    padding: 70px 0;
+  }
+  div#container div#quiz_wrapper section#quiz div.question_wrapper div.generic_question div.question_listing {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  div#container div#quiz_wrapper section#quiz div.question_wrapper div.generic_question div.question_listing div.input {
+    height: 57px;
+    position: relative;
+  }
+  div#container div#quiz_wrapper section#quiz div.question_wrapper div.generic_question div.question_listing div.input label {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  div#container div#quiz_wrapper section#results div#diagnostic {
+    padding: 65px 70px;
+  }
+  div#container div#quiz_wrapper section#results div#diagnostic h1 {
+    font-size: 32px;
+    margin-bottom: 70px;
+  }
+  div#container div#quiz_wrapper section#results div#diagnostic div.data {
+    width: 40%;
+  }
+  div#container div#quiz_wrapper section#results div#diagnostic div.data h2 {
+    font-size: 26px;
+    margin-bottom: 40px;
+  }
+  div#container div#quiz_wrapper section#results div#diagnostic div.data.left {
+    margin-bottom: 0;
+    position: relative;
+  }
+  div#container div#quiz_wrapper section#results div#diagnostic div.data.left:after {
+    background: #fff;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: -25%;
+    top: 0;
+    width: 1px;
+  }
+  div#container div#quiz_wrapper section#results div#product_listing h2 {
+    font-size: 32px;
+    margin: 75px 0 35px;
+  }
+  div#container div#quiz_wrapper section#results div#product_listing span.subtitle {
+    font-size: 32px;
+  }
+  div#container div#quiz_wrapper section#results div#product_listing span.subtitle img {
+    width: 31px;
+  }
+  div#container div#quiz_wrapper section#results div#product_listing div.products_wrapper {
+    background: url("http://image.mail.biotherm.ca/lib/fe9513727563077976/m/3/landing_diagnostic_products.jpg") center -380px no-repeat;
+    background-size: 3000px;
+  }
+  div#container div#quiz_wrapper section#results div#product_listing div.products_wrapper div.item {
+    width: calc(16.66666667%);
+  }
+  div#container div#quiz_wrapper section#results div#product_listing div.products_wrapper div.item div.media {
+    margin: 40px 0 20px 0;
+  }
+  div#container div#quiz_wrapper section#results div#product_listing div.actions {
+    margin-bottom: 80px;
+  }
+  div#container div#quiz_wrapper section#results div#product_listing div.actions button {
+    width: 24%;
+  }
+  div#container div#quiz_wrapper section#results_confirmation {
+    padding: 60px 0;
+  }
+  div#container div#quiz_wrapper section#results_confirmation h2 {
+    font-size: 32px;
+  }
+  div#container div.actions button {
+    font-size: 17px;
+    margin-bottom: 30px;
+  }
+  div#container div.inner {
+    padding: 0;
+  }
+  div#container div.cols {
+    overflow: hidden;
+  }
+  div#container div.left {
+    float: left;
+  }
+  div#container div.right {
+    float: right;
+  }
+}

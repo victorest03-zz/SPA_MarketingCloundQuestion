@@ -1,0 +1,828 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote {
+  &:before, &:after {
+    content: '';
+    content: none;
+  }
+}
+
+q {
+  &:before, &:after {
+    content: '';
+    content: none;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background: #fff;
+  color: #535355;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5em;
+  margin: 0;
+  text-align: center;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  color: #535355;
+  outline: none;
+  text-decoration: none;
+  -webkit-transition: .2s all;
+  transition: .2s all;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+strong {
+  font-weight: 700;
+}
+
+small {
+  font-size: 11px;
+  line-height: 13px;
+}
+
+::-webkit-input-placeholder, ::-moz-placeholder, :-ms-input-placeholder {
+  color: #fff;
+}
+
+form {
+  div.error_message {
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    span {
+      color: #c13030;
+      display: block;
+      padding-top: 8px;
+      text-transform: none;
+      -webkit-transition: .2s;
+      transition: .2s;
+    }
+  }
+  label {
+    font-family: 'Open Sans',sans-serif;
+    text-transform: uppercase;
+    &.checkbox {
+      font-size: 14px;
+      text-transform: none;
+    }
+  }
+  input {
+    &[type="text"], &[type="email"] {
+      border: 1px solid #535355;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      font-family: 'Open Sans',sans-serif;
+      font-size: 14px;
+      line-height: 14px;
+      outline: none;
+      padding: 16px;
+      text-transform: uppercase;
+      width: 100%;
+    }
+  }
+  select {
+    background: none;
+    border: none;
+    border-radius: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    text-transform: uppercase;
+    width: 100%;
+    &::-ms-expand {
+      display: none;
+    }
+  }
+  button {
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0;
+  }
+}
+
+#container {
+  div {
+    &#intro div.data {
+      h1 {
+        font-size: 16px;
+        line-height: 1.3em;
+        margin: 15px;
+        strong {
+          display: block;
+        }
+      }
+      a.cta {
+        display: none;
+      }
+    }
+    &#registration_wrapper section {
+      padding: 30px 0;
+      h2 {
+        font-size: 16px;
+        line-height: 1.3em;
+        margin-bottom: 30px;
+      }
+      h3 {
+        margin: 32px 0 10px;
+      }
+      div {
+        &.input {
+          margin: 0 auto 12px;
+          max-width: 590px;
+          overflow: hidden;
+          width: 100%;
+        }
+        &.error_message {
+          text-align: center;
+        }
+      }
+      &#register {
+        div.input div.col_1, p {
+          margin-bottom: 12px;
+        }
+        small {
+          display: block;
+          margin: 0 auto;
+          max-width: 950px;
+        }
+      }
+      &#existing h2 {
+        margin: 0 auto 30px;
+        max-width: 790px;
+      }
+    }
+    &#quiz_wrapper section {
+      &#quiz {
+        > img {
+          padding: 60px;
+        }
+        div.question_wrapper {
+          color: #fff;
+          text-transform: uppercase;
+          div.inner {
+            max-width: 900px;
+          }
+          h3 {
+            font-size: 16px;
+            line-height: 1.3em;
+            margin-bottom: 35px;
+          }
+          div {
+            &.question_listing {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+              div.input {
+                margin-bottom: 18px;
+                width: 284px;
+                input[type="radio"] {
+                  display: none;
+                  + label {
+                    cursor: pointer;
+                    display: block;
+                    padding: 9px 15px;
+                    -webkit-transition: .2s;
+                    transition: .2s;
+                    &:hover {
+                      opacity: .7;
+                    }
+                  }
+                  &:checked + label {
+                    color: #535355;
+                  }
+                }
+              }
+            }
+            &#question_gender {
+              display: none;
+            }
+            &#question_age {
+              background: #286170;
+              padding: 90px 0;
+              div.question_listing {
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+                div.select_wrapper {
+                  position: relative;
+                  select {
+                    background: #286170;
+                    color: #fff;
+                    font-size: 40px;
+                    line-height: 75px;
+                    text-align-last: center;
+                    option {
+                      font-size: 24px;
+                    }
+                  }
+                }
+                span {
+                  font-size: 75px;
+                  font-weight: 300;
+                  line-height: 75px;
+                }
+              }
+            }
+            &#question_skintype {
+              background: url("http://image.mail.biotherm.ca/lib/fe9513727563077976/m/3/landing_diagnostic_skintype.jpg") center center;
+              background-size: cover;
+              padding: 35px 0;
+              div.question_listing {
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column;
+                -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                justify-content: space-between;
+                div.input {
+                  background: #fff;
+                  color: #286170;
+                  max-width: 284px;
+                }
+                &:after {
+                  content: "";
+                  -webkit-box-flex: 1;
+                  -ms-flex: auto;
+                  flex: auto;
+                }
+              }
+            }
+
+            &#question_sensitivity, &#question_naturalinterest {
+              background: #fff;
+              color: #286170;
+              padding: 90px 0;
+
+              div.question_listing{
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+
+                div.input{
+                  color: #23c9c5;
+                  font-size: 54px;
+                  line-height: 75px;
+                  width: auto;
+                  input[type="radio"] + label{
+                    padding: 0;
+                  }
+                }
+
+                span{
+                  font-size: 75px;
+                  font-weight: 300;
+                  line-height: 75px;
+
+                  &:last-child{
+                    display: none;
+                  }
+                }
+              }
+            }
+
+            &.generic_question {
+              background: url("http://image.mail.biotherm.ca/lib/fe9513727563077976/m/3/landing_diagnostic_skinconcern.jpg") center center;
+              background-size: cover;
+              padding: 35px 0;
+              div.question_listing {
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+                div.input {
+                  color: #fff;
+                  margin: 0 7px 14px;
+                  max-width: 284px;
+                  text-align: left;
+                  input[type="radio"] {
+                    + label {
+                      padding-left: 24px;
+                      position: relative;
+                      &:before {
+                        border: 1px solid #fff;
+                        content: "";
+                        height: 12px;
+                        left: 0;
+                        position: absolute;
+                        top: 15px;
+                        width: 12px;
+                      }
+                    }
+                    &:checked + label {
+                      color: #fff;
+                      &:before {
+                        background: #286170;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      &#results {
+        .loading_img {
+          padding: 60px;
+        }
+        div {
+          &#diagnostic {
+            background: #286170;
+            color: #fff;
+            padding: 35px;
+            h1 {
+              font-size: 18px;
+              font-weight: 700;
+              line-height: 1em;
+              margin-bottom: 35px;
+            }
+            div.data {
+              display: block;
+              text-align: center;
+              h2 {
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 1em;
+                margin-bottom: 10px;
+              }
+              p strong {
+                text-transform: uppercase;
+              }
+              &.left {
+                margin-bottom: 30px;
+              }
+            }
+          }
+          &#product_listing {
+            h2 {
+              color: #286170;
+              font-size: 16px;
+              line-height: 1em;
+              margin: 35px 0 16px;
+            }
+            span.subtitle {
+              background: #286170;
+              color: #fff;
+              display: block;
+              font-size: 16px;
+              font-weight: 700;
+              line-height: 1em;
+              padding: 12px 0;
+              text-transform: uppercase;
+              img {
+                vertical-align: top;
+                width: 15px;
+              }
+            }
+            div {
+              &.products_wrapper {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+                div.item {
+                  margin-bottom: 30px;
+                  width: 48%;
+                  span.category {
+                    background: #fff;
+                    color: #23c9c5;
+                    display: block;
+                    font-size: 18px;
+                    font-weight: bold;
+                    padding: 3px 0;
+                    text-transform: uppercase;
+                  }
+                  div.media {
+                    margin: 20px 0;
+                  }
+                  h3 {
+                    font-size: 14px;
+                    line-height: 1.3em;
+                    margin: 0 auto 15px;
+                    max-width: 80%;
+                    min-height: 54px;
+                  }
+                  div.product_actions {
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                    justify-content: center;
+                    margin-top: 30px;
+                    button {
+                      background: none;
+                      border: none;
+                      outline: none;
+                      padding: 0;
+                    }
+                  }
+                }
+              }
+              &.actions {
+                margin-bottom: 60px;
+                max-width: none;
+                width: 100%;
+                button {
+                  width: 48%;
+                }
+              }
+            }
+          }
+        }
+      }
+      &#results_confirmation {
+        padding: 30px 0;
+        h2 {
+          font-size: 16px;
+          line-height: 1.3em;
+          margin-bottom: 30px;
+        }
+      }
+    }
+    &.inner {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      margin: 0 auto;
+      max-width: 1176px;
+      padding: 0 15px;
+    }
+  }
+  a.cta {
+    background: #286170;
+    color: #fff;
+    display: inline-block;
+    font-size: 19px;
+    margin: 0 0 15px;
+    padding: 10px 26px;
+    text-transform: uppercase;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    &:hover {
+      opacity: .7;
+    }
+    &.clear {
+      background: none;
+      border: 1px solid #fff;
+      &:hover {
+        border: 1px solid #286170;
+        color: #286170;
+        opacity: 1;
+      }
+    }
+  }
+  div.actions {
+    margin: 0 auto 15px;
+    max-width: 590px;
+    overflow: hidden;
+    &.actions_medium {
+      max-width: 740px;
+    }
+    &.actions_large {
+      max-width: 800px;
+    }
+    button {
+      background: #286170;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      display: inline-block;
+      font-family: 'Open Sans',sans-serif;
+      font-size: 13px;
+      outline: none;
+      margin-bottom: 15px;
+      padding: 9px;
+      text-transform: uppercase;
+      -webkit-transition: .2s;
+      transition: .2s;
+      &.off {
+        background: #e6e4e4;
+        color: #535355;
+      }
+      &:hover {
+        opacity: .7;
+      }
+      &.clear {
+        background: none;
+        border: 1px solid #fff;
+        font-size: 19px;
+        font-weight: 700;
+        padding: 12px 16px;
+        position: relative;
+        &:after {
+          background: url("http://image.mail.biotherm.ca/lib/fe9513727563077976/m/3/landing_diagnostic_arrow.png") center center;
+          content: "";
+          height: 36px;
+          position: absolute;
+          right: -42px;
+          top: 50%;
+          -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+          width: 20px;
+        }
+        &:hover {
+          border: 1px solid #286170;
+          color: #286170;
+        }
+      }
+    }
+  }
+  img.bg {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+  .hidden {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 680px) {
+  div#container div {
+    &#intro {
+      background: url("http://image.mail.biotherm.ca/lib/fe9513727563077976/m/4/landing_diagnostic_intro_v2.jpg") center center no-repeat;
+      background-size: cover;
+      color: #fff;
+      img.bg {
+        display: none;
+      }
+      div {
+        &.inner {
+          height: 355px;
+        }
+        &.data {
+          position: absolute;
+          right: 6%;
+          top: 50%;
+          -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+          width: 46%;
+          h1 {
+            font-size: 24px;
+            margin: 0;
+          }
+          a.cta {
+            bottom: -75px;
+            display: inline-block;
+            left: 50%;
+            position: absolute;
+            -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+          }
+        }
+      }
+    }
+    &#registration_wrapper section#register div.input div {
+      &.col_1 {
+        float: left;
+        margin-bottom: 0;
+        width: 68%;
+      }
+      &.col_2 {
+        float: right;
+        width: 30%;
+      }
+    }
+    &.inner {
+      overflow: hidden;
+      position: relative;
+    }
+    &.actions button {
+      width: 44%;
+    }
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  body {
+    font-size: 18px;
+  }
+  div#container div {
+    &#intro div {
+      &.inner {
+        height: 555px;
+      }
+      &.data h1 {
+        font-size: 32px;
+      }
+    }
+    &#registration_wrapper section {
+      padding: 60px 0;
+      h2 {
+        font-size: 32px;
+      }
+      h3 {
+        font-size: 21px;
+      }
+      &#existing {
+        padding: 190px 0;
+        h2 {
+          margin-bottom: 56px;
+        }
+      }
+    }
+    &#quiz_wrapper section {
+      &#quiz div.question_wrapper {
+        h3 {
+          font-size: 32px;
+          margin-bottom: 70px;
+        }
+        div {
+          &#question_age {
+            padding: 180px 0;
+            div.question_listing {
+              div.select_wrapper select {
+                font-size: 108px;
+                line-height: 150px;
+              }
+              span {
+                font-size: 150px;
+                line-height: 150px;
+              }
+            }
+          }
+          &#question_sensitivity, &#question_naturalinterest {
+            padding: 180px 0;
+            div.question_listing{
+              div.input{
+                font-size: 108px;
+                line-height: 150px;
+              }
+
+              span{
+                font-size: 150px;
+                line-height: 150px;
+              }
+            }
+          }
+          &#question_skintype {
+            padding: 70px 0;
+          }
+          &.generic_question {
+            padding: 70px 0;
+            div.question_listing {
+              -webkit-box-pack: start;
+              -ms-flex-pack: start;
+              justify-content: flex-start;
+              div.input {
+                height: 57px;
+                position: relative;
+                label {
+                  -webkit-box-sizing: border-box;
+                  box-sizing: border-box;
+                  width: 100%;
+                }
+              }
+            }
+          }
+        }
+      }
+      &#results div {
+        &#diagnostic {
+          padding: 65px 70px;
+          h1 {
+            font-size: 32px;
+            margin-bottom: 70px;
+          }
+          div.data {
+            width: 40%;
+            h2 {
+              font-size: 26px;
+              margin-bottom: 40px;
+            }
+            &.left {
+              margin-bottom: 0;
+              position: relative;
+              &:after {
+                background: #fff;
+                content: "";
+                height: 100%;
+                position: absolute;
+                right: -25%;
+                top: 0;
+                width: 1px;
+              }
+            }
+          }
+        }
+        &#product_listing {
+          h2 {
+            font-size: 32px;
+            margin: 75px 0 35px;
+          }
+          span.subtitle {
+            font-size: 32px;
+            img {
+              width: 31px;
+            }
+          }
+          div {
+            &.products_wrapper {
+              background: url("http://image.mail.biotherm.ca/lib/fe9513727563077976/m/3/landing_diagnostic_products.jpg") center -380px no-repeat;
+              background-size: 3000px;
+              div.item {
+                width: calc(16.66666667%);
+                div.media {
+                  margin: 40px 0 20px 0;
+                }
+              }
+            }
+            &.actions {
+              margin-bottom: 80px;
+              button {
+                width: 24%;
+              }
+            }
+          }
+        }
+      }
+      &#results_confirmation {
+        padding: 60px 0;
+        h2 {
+          font-size: 32px;
+        }
+      }
+    }
+    &.actions button {
+      font-size: 17px;
+      margin-bottom: 30px;
+    }
+    &.inner {
+      padding: 0;
+    }
+    &.cols {
+      overflow: hidden;
+    }
+    &.left {
+      float: left;
+    }
+    &.right {
+      float: right;
+    }
+  }
+}
